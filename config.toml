@@ -1,4 +1,8 @@
 baseURL = 'https://ollien.com/'
 languageCode = 'en-us'
-title = 'Nick Krichevsky (ollien)'
+title = 'Nick Krichevsky'
 theme = 'archie'
+
+[params]
+subtitle = '(ollien)'
+social = true
