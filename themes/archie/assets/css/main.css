@@ -207,7 +207,6 @@ footer {
   display: flex;
   align-items: center;
   border-top: 0.4rem solid var(--bordercl);
-  padding: 2rem 0rem;
   margin-top: 2rem;
 }
 
