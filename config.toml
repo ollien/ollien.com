@@ -5,3 +5,4 @@ theme = 'archie'
 
 [params]
 subtitle = '(ollien)'
+profilePhotoURL = 'https://www.gravatar.com/avatar/ef2f354a1477242d8d36b0fe5e91396e?s=1024'

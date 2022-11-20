@@ -1,5 +1,6 @@
 <header>
 	<div class="main">
+		<img class="profile-photo" src="{{ .Site.Params.ProfilePhotoURL }}">
 		<a href="{{ .Site.BaseURL }}">
 			{{ .Site.Title }}
 			{{- if isset .Site.Params "subtitle" -}}
