@@ -5,7 +5,7 @@ draft: false
 ---
 
 # Hi there! 👋
-I'm Nick, a software engineer in the Boston area, interested in backend systems, mechanical keyboards, and dad jokes.
+I'm Nick, a software engineer in the Boston area. I'm interested in backend systems, mechanical keyboards, and dad jokes.
 
 # Where to find me
  - {{< social icon="mail-outline" label="Email" text="nick@ollien.com" url="mailto:nick@ollien.com">}}
