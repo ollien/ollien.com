@@ -1,4 +1,6 @@
 <span title="{{ .Get "label"}}">
-	<i data-feather="{{ .Get "icon" }}">{{.Get "label"}}</i>
+	<ion-icon name="{{ .Get "icon" }}">{{.Get "label"}}</i>
 </span>
-<a href="{{ .Get "url" }}">{{ .Get "text" }}</a>
+<a href="{{ .Get "url" }}" {{ if .Get "rel" }} rel="{{ .Get "rel" }}" {{ end }}>
+	{{ .Get "text" }}
+</a>
