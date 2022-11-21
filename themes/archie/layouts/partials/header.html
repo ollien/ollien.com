@@ -4,8 +4,9 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	{{- $title := ( .Title ) -}}
 	{{- $siteTitle := ( .Site.Title ) -}}
+	{{- $siteSubtitle := ( .Site.Params.Subtitle ) -}}
 	{{- if .IsHome -}}
-	<title>{{ $siteTitle }} | Home </title>
+	<title>{{ $siteTitle }} {{ $siteSubtitle }}</title>
 	{{- else -}}
 	<title>{{ $title }} - {{ $siteTitle }}</title>
 	{{- end -}}
