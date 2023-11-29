@@ -12,4 +12,4 @@ I'm Nick, a software engineer in the Boston area. I'm interested in backend syst
  - {{< social icon="create-outline" label="Blog" text="blog.ollien.com" url="https://blog.ollien.com">}}
  - {{< social icon="logo-github" label="Github" text="ollien" url="https://github.com/ollien">}}
  - {{< social icon="logo-twitter" label="Twitter" text="@TheOllien" url="https://twitter.com/TheOllien">}}
- - {{< social icon="logo-mastodon" label="Mastodon" text="@ollien@hachyderm.io" url="https://hachyderm.io/@ollien" rel="me" >}}
+ - {{< social icon="logo-mastodon" label="Mastodon" text="@ollien@discuss.systems" url="https://discuss.systems/@ollien" rel="me" >}}
