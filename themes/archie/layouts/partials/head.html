@@ -1,6 +1,8 @@
 <header>
 	<div class="main">
-		<img class="profile-photo" src="{{ .Site.Params.ProfilePhotoURL }}">
+		{{/* https://discourse.gohugo.io/t/understanding-getremote/38026 */}}
+		{{ $profilePhoto := (resources.GetRemote .Site.Params.ProfilePhotoURL).Content | resources.FromString "img/profile-photo" }}
+		<img class="profile-photo" src="{{ $profilePhoto.RelPermalink }}">
 		<a href="{{ .Site.BaseURL }}">
 			{{ .Site.Title }}
 			{{- if isset .Site.Params "subtitle" -}}
